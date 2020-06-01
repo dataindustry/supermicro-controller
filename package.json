@@ -1,0 +1,21 @@
+{
+  "name": "supermicro-controller",
+  "version": "1.0.0",
+  "description": "Supermicro Controller",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.2.1",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.2.2",
+    "node-cmd": "^3.0.0"
+  }
+}

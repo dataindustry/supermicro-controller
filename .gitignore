@@ -1,0 +1,6 @@
+# Project exclude paths
+/.git/
+/.idea/
+/node_modules/
+*.properties
+package-lock.json

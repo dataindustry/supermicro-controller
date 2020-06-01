@@ -1,0 +1,6 @@
+{
+  "configuration_channel": "1",
+  "fan_mode_channel": "2",
+  "fan_precision_control": "3",
+  "reset-boot-control": "4"
+}

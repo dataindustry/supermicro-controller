@@ -1,0 +1,26 @@
+#site-footer {
+    background-color: lightseagreen;
+    bottom: 0;
+    font-family: "Droid Sans Mono", monospace, monospace, "Droid Sans Fallback";
+    font-size: 13px;
+    height: 19px;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: fixed;
+}
+
+#site-footer {
+    color: lightgray;
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+#site-footer a {
+    color: white;
+    font-weight: bold;
+}
+
+#site-footer a:hover {
+    color: darkorange;
+}
