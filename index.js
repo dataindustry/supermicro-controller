@@ -168,9 +168,6 @@ ipcMain.on(channel['configuration_channel'], function (event, configuration) {
     is_smcipmitool_ready = !(isLogicEmptyString(jre_path) || isLogicEmptyString(smcipmitool_jar_path));
     is_ipmitool_ready = !isLogicEmptyString(ipmitool_path);
 
-    console.log(is_smcipmitool_ready);
-    console.log(is_ipmitool_ready);
-
     fs.writeFile(__dirname + "/configuration.json", JSON.stringify(
         {
             "smc_ip": smc_ip,
