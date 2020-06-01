@@ -229,7 +229,6 @@ ipcMain.on(channel['reset-boot-control'], function (event, code) {
         if (is_smcipmitool_ready === true && !isLogicEmptyString(code["smcipmitool_reset_code"])) {
             let command = 'ipmi power ' + code["smcipmitool_reset_code"] + ' ' + code["cycle_interval"];
             runCommand(buildSmcimpitoolCommand(command), event, channel['reset-boot-control'] + '-FEEDBACK');
-            return;
         }
     }
 
